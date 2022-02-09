@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Aditya Halder (@AdityaHalder)",
+        f"Powered By: PHOENIX EMPIRE (@PHOENIX_EMPIRE)",
         (255, 255, 255),
         font=font,
     )
@@ -248,7 +248,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**🤖 Ɠɩⱱɘ 🙃 Ɱʋsɩƈ 💿 Ɲɑɱɘ 😍\n💞 Ƭø 🔊 Ƥɭɑy 🌷...**"
             )
-        await lel.edit("**🔄 Ƥɤøƈɘssɩɳʛ ...**")
+        await lel.edit("**🔄 𝗖𝗼𝗺𝗶𝗻𝗴 𝘁𝗼 𝗿𝗼𝗰𝗸...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -335,7 +335,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/5e21bb50ccf6de78ff973.jpg", 
+                             photo="https://telegra.ph/file/e741ceb6e75683b9f0f81.jpg", 
                              caption="**💥 Ʌɗɩtyɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n▶️ Ƥɑʋsɘɗ 🌷 ...**"
     )
 
@@ -380,7 +380,7 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/5e21bb50ccf6de78ff973.jpg", 
+                             photo="https://telegra.ph/file/e741ceb6e75683b9f0f81.jpg", 
                              caption=f'**💥 Ʌɗɩtyɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n⏩ Sƙɩƥƥɘɗ 🌷 ...**'
    ) 
 
@@ -396,7 +396,7 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/5e21bb50ccf6de78ff973.jpg", 
+                             photo="https://telegra.ph/file/e741ceb6e75683b9f0f81.jpg", 
                              caption="**💥 Ʌɗɩtyɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n❌ Sʈøƥƥɘɗ 🌷 ...**"
     )
 
@@ -414,6 +414,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/5e21bb50ccf6de78ff973.jpg",
+                              photo="https://telegra.ph/file/e741ceb6e75683b9f0f81.jpg",
                               caption="**💥 Ʌɗɩtyɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n🔥 Ʀɘɭøɑɗɘɗ 🌷 ...**"
     )
