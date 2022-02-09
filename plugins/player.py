@@ -347,7 +347,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/5e21bb50ccf6de78ff973.jpg", 
+                             photo="https://telegra.ph/file/6fd7dffc9a4b7901c92a4.jpg", 
                              caption="**💥 𝘬𝓲𝘳ꪖ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗶𝗹𝗹 𝗿𝗼𝗰𝗸 𝗮𝗴𝗮𝗶𝗻 𝗼𝗻 𝘃𝗰🤘🤟⏸️...**"
     )
 
@@ -382,7 +382,7 @@ async def skip(_, message: Message):
 
     await message.reply_photo(
                              photo="https://telegra.ph/file/e741ceb6e75683b9f0f81.jpg", 
-                             caption=f'**💥 𝘬𝓲𝘳ꪖ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗶𝗹𝗹 𝗽𝗹𝗮𝘆 𝗻𝘄𝘅𝘁 𝗼𝗽 𝘀𝗼𝗻𝗴 🤟🤘⏩ ...**'
+                             caption=f'**💥 𝘬𝓲𝘳ꪖ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗶𝗹𝗹 𝗽𝗹𝗮𝘆 𝗻𝗲𝘅𝘁 𝗼𝗽 𝘀𝗼𝗻𝗴 🤟🤘⏩ ...**'
    ) 
 
 
@@ -398,7 +398,7 @@ async def stop(_, message: Message):
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/e741ceb6e75683b9f0f81.jpg", 
-                             caption="**💥 𝘬𝓲𝘳ꪖ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝗥𝗼𝗰𝗸𝗲𝗱 𝗼𝗻 𝘃𝗰 🤟🤘🚫...**"
+                             caption="**💥 𝘬𝓲𝘳ꪖ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝗥𝗼𝗰𝗸𝗲𝗱 𝗼𝗻 𝘃𝗰 🤟🤘🚫 𝗽𝗼𝘄𝗲𝗿𝗱 𝗯𝘆:- @kirarealdeathgod ...**"
     )
 
 
