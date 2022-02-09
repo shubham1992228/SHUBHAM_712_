@@ -44,19 +44,34 @@ async def start_(client: Client, message: Message):
 ┣★ sᴏᴜʀᴄᴇ › : [ɢᴇᴛ ʀᴇᴘᴏ ʜᴇʀᴇ](https://github.com/mradityaxd/adityaplayer)
 ┗━━━━━━━━━━━━━━━━━┛
 
-💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/adityahalder) ...
+
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
+
+                 [
+
+                    InlineKeyboardButton(text="Assistant", url="https://t.me/klm_plauer"),
+
+                    InlineKeyboardButton(text="Network", url="https://t.me/PHOENIX_EMPIRE"),
+
+                 ],
+
+                 [
+
+                    InlineKeyboardButton(text="Support", url="https://t.me/CFC_BOT_SUPPORT"),
+
+                    InlineKeyboardButton(text="Updates", url="https://t.me/CFC_BOTS"),
+
+                 ],
                 [
-                    InlineKeyboardButton(
-                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/adityaserver")
-                ]
-                
-           ]
-        ),
-    )
+
+        InlineKeyboardButton(
+
+            text="➗ Add Siesta To Your Group ➗", url="t.me/kiraxmuiscbot?startgroup=new"),
+
+    ],
+                ),
     
     
 @Client.on_message(commandpro(["/start", "/alive", "aditya"]) & filters.group & ~filters.edited)
