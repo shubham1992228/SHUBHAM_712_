@@ -322,7 +322,8 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 Ʌɗɩtyɑ🤞Mʋsɩƈ 🎸 Nøω 💞\n🔊 Ƥɭɑyɩɳʛ 😍 ØƤ 🥀 ...**".format(),
+            caption="**💥  𝘬𝓲𝘳ꪖ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝗥𝗼𝗰𝗸𝗶𝗻𝗴 𝗼𝗻 𝘃𝗰 🤘🤟 𝗽𝗼𝘄𝗲𝗿𝗱 𝗯𝘆:- @kirarealdeathgod ...**".format(),
+            
            )
 
     os.remove("final.png")
@@ -336,7 +337,7 @@ async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/e741ceb6e75683b9f0f81.jpg", 
-                             caption="**💥 Ʌɗɩtyɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n▶️ Ƥɑʋsɘɗ 🌷 ...**"
+                             caption="**💥  𝘬𝓲𝘳ꪖ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗮𝗻𝘁 𝘁𝗼 𝗿𝗼𝗰𝗸 𝗼𝗻 𝘃𝗰 ▶️🤟🤘...**"
     )
 
 
@@ -347,7 +348,7 @@ async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/5e21bb50ccf6de78ff973.jpg", 
-                             caption="**💥 Ʌɗɩtyɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n⏸ Ƥɭɑyɩɳʛ 🌷 ...**"
+                             caption="**💥 𝘬𝓲𝘳ꪖ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗶𝗹𝗹 𝗿𝗼𝗰𝗸 𝗮𝗴𝗮𝗶𝗻 𝗼𝗻 𝘃𝗰🤘🤟⏸️...**"
     )
 
 
@@ -381,7 +382,7 @@ async def skip(_, message: Message):
 
     await message.reply_photo(
                              photo="https://telegra.ph/file/e741ceb6e75683b9f0f81.jpg", 
-                             caption=f'**💥 Ʌɗɩtyɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n⏩ Sƙɩƥƥɘɗ 🌷 ...**'
+                             caption=f'**💥 𝘬𝓲𝘳ꪖ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗶𝗹𝗹 𝗽𝗹𝗮𝘆 𝗻𝘄𝘅𝘁 𝗼𝗽 𝘀𝗼𝗻𝗴 🤟🤘⏩ ...**'
    ) 
 
 
@@ -397,7 +398,7 @@ async def stop(_, message: Message):
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/e741ceb6e75683b9f0f81.jpg", 
-                             caption="**💥 Ʌɗɩtyɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n❌ Sʈøƥƥɘɗ 🌷 ...**"
+                             caption="**💥 𝘬𝓲𝘳ꪖ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝗥𝗼𝗰𝗸𝗲𝗱 𝗼𝗻 𝘃𝗰 🤟🤘🚫...**"
     )
 
 
