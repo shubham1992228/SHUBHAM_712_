@@ -248,7 +248,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**🤖 Ɠɩⱱɘ 🙃 Ɱʋsɩƈ 💿 Ɲɑɱɘ 😍\n💞 Ƭø 🔊 Ƥɭɑy 🌷...**"
             )
-        await lel.edit("**🔄 𝗖𝗼𝗺𝗶𝗻𝗴 𝘁𝗼 𝗿𝗼𝗰𝗸...**")
+        await lel.edit("**🔄 𝗖𝗼𝗺𝗶𝗻𝗴 𝘁𝗼 𝗿𝗼𝗰𝗸 𝗼𝗻 𝘃𝗰 ...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -322,7 +322,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥  𝘬𝓲𝘳ꪖ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝗥𝗼𝗰𝗸𝗶𝗻𝗴 𝗼𝗻 𝘃𝗰 🤘🤟 𝗽𝗼𝘄𝗲𝗿𝗱 𝗯𝘆:- @kirarealdeathgod ...**".format(),
+            caption="**💥  𝘬𝓲𝘳ꪖ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝗥𝗼𝗰𝗸𝗶𝗻𝗴 𝗼𝗻 𝘃𝗰 🤘🤟 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆:- @kirarealdeathgod ...**".format(),
             
            )
 
@@ -363,7 +363,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**💥 Ʌɗɩtyɑ 💞 Ɲøʈɦɩɳʛ 🔇\n🚫 Ƥɭɑyɩɳʛ 🌷 ...**")
+        await message.reply_text("**💥 𝘬𝓲𝘳ꪖ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗶𝗹𝗹 𝗽𝗹𝗮𝘆 𝗻𝗲𝘅𝘁 𝗼𝗽 𝘀𝗼𝗻𝗴 🤟🤘⏩...**")
     else:
         queues.task_done(chat_id)
         
@@ -398,7 +398,7 @@ async def stop(_, message: Message):
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/e741ceb6e75683b9f0f81.jpg", 
-                             caption="**💥 𝘬𝓲𝘳ꪖ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝗥𝗼𝗰𝗸𝗲𝗱 𝗼𝗻 𝘃𝗰 🤟🤘🚫 𝗽𝗼𝘄𝗲𝗿𝗱 𝗯𝘆:- @kirarealdeathgod ...**"
+                             caption="**💥 𝘬𝓲𝘳ꪖ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝗥𝗼𝗰𝗸𝗲𝗱 𝗼𝗻 𝘃𝗰 🤟🤘🚫 𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆:- @kirarealdeathgod ...**"
     )
 
 
