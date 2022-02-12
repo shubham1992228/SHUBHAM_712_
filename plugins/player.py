@@ -129,13 +129,13 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "**💥 Ʌʈ🤞Fɩrsʈ 🥀 Ɱɑƙɘ ♥️ Ɱɘ ⭐ Ʌɗɱɩŋ 😎 ...**")
+                        "**💥 💥 𝗙𝗶𝗿𝘀𝘁 𝗺𝗮𝗸𝗲 𝗺𝗲 𝗮𝗱𝗺𝗶𝗻 𝘁𝗼 𝗿𝗼𝗰𝗸 𝗼𝗻 𝘃𝗰  😎🤘🤟 ...**")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** 😎 I🤞ʌɱ 🥀 Ʀɘɑɗy ♥️ Ƭø ⭐ Ƥɭɑy 😎 ...**")
+                        message.chat.id, "** 😎 𝗜 𝗮𝗺 𝗿𝗲𝗱𝘆 𝘁𝗼 𝗿𝗼𝗰𝗸 𝗼𝗻 𝘃𝗰 🤟🤘❣️💥 ...**")
 
                 except UserAlreadyParticipant:
                     pass
