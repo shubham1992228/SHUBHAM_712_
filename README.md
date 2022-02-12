@@ -4,7 +4,7 @@
 <p align="center"><a href="https://t.me/kirarealdeathgod"><img src="https://telegra.ph/file/8d2321beac9a2b51d0ba5.jpg"></a></p>
 
 
-## Avaiilable on Telegram as [@kiraxmuiscbot](https://t.me/kiraxmuicbot)
+## Avaiilable on Telegram as [@kiraxmuiscbot](https://t.me/kiraxmuiscbot)
 ### Deploy To Heroku
 
 [![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kiraxop/kiraxmuisc)
