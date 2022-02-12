@@ -7,7 +7,7 @@
 ## Avaiilable on Telegram as [@kiraxmuiscbot](https://t.me/Kiraxmusicbot)
 ### Deploy To Heroku
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kiraxop/kiraxmuisc)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kiraxophunter/kiraxmuisc)
 
 
 
