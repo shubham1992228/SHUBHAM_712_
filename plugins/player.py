@@ -237,7 +237,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥 Ƥɭɑy 🔊 Ɱʋsɩƈ 💿 Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
+                f"**💥 𝗽𝗹𝗮𝘆 𝗺𝘂𝘀𝗶𝗰 𝗹𝗲𝘀𝘀 𝘁𝗵𝗮𝗻 {DURATION_LIMIT} 𝗺𝗶𝗻. 🥺...**"
             )
             return
         requested_by = message.from_user.first_name
